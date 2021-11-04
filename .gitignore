@@ -1,0 +1,3 @@
+# Project exclude paths
+/.gradle/
+/Amazing Numbers/task/build/
