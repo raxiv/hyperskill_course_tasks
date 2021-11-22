@@ -6,6 +6,13 @@ class Move {
         // your implementation here
 
 
+
+
+Airection.NORTH.toString();
+
+
+
+
         System.out.println("weszlo");
         if (robot.getX() < toX) {
             switch (robot.getDirection()) {
@@ -95,6 +102,23 @@ class Move {
 }
 
 
+enum Airection {
+    EAST("E"),
+    WEST("W"),
+    NORTH("N"),
+    SOUTH("S");
+
+    private final String shortCode;
+
+    Airection(String code) {
+        this.shortCode = code;
+    }
+
+    public String getShortCode() {
+        return this.shortCode;
+    }
+
+}
 //Don't change code below
 
 enum Direction {
