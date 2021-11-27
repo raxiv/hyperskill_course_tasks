@@ -204,7 +204,7 @@ public class Cinema {
         System.out.print("  ");
         for (int i = 0; i < array[0].length; i++) {
             System.out.print((i + 1) + " ");
-        }rm -f ./.git/index.lock
+        }
         System.out.println("");
 
 
